@@ -6266,6 +6266,10 @@ figcaption {
   overflow: visible;
 }
 
+.heading {
+  font-size: 3rem;
+}
+
 @media screen and (min-width: 1440px) {
   .heading-medium {
     font-size: 6rem;
