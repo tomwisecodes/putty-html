@@ -2966,6 +2966,7 @@ figcaption {
 }
 
 .text-uppercase {
+  margin-bottom: 2rem;
   text-transform: none;
 }
 
@@ -4874,7 +4875,7 @@ figcaption {
 }
 
 .section-home-projects {
-  display: none;
+  display: block;
 }
 
 .container-xxlarge {
@@ -5640,6 +5641,7 @@ figcaption {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 4rem;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6319,6 +6321,12 @@ figcaption {
     grid-template-columns: 1.5fr 1fr;
   }
 
+  .services-grid-right {
+    overflow: hidden;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+
   .studio-hero-grid {
     -ms-grid-columns: 1.5fr 1fr;
     grid-template-columns: 1.5fr 1fr;
@@ -6327,6 +6335,10 @@ figcaption {
   .work-hero-grid {
     -ms-grid-columns: 1.5fr 1fr;
     grid-template-columns: 1.5fr 1fr;
+  }
+
+  .services-image-wrapper {
+    width: 100%;
   }
 }
 
@@ -8880,6 +8892,50 @@ figcaption {
   grid-row-end: span 1;
 }
 
+#w-node-_150aeac2-d91c-43d6-c408-12e953fb34c1-b031eb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_160c3391-a64b-c802-a290-6d38b4f074a3-b031eb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_5f0ff1d7-8d9b-7a42-d863-a4a127a1ae19-b031eb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_5f0ff1d7-8d9b-7a42-d863-a4a127a1ae21-b031eb7f {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-df1ce900-9488-b966-cbe9-0544a915f446-1731eb80 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -8944,50 +9000,8 @@ figcaption {
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
-}
-
-#w-node-_150aeac2-d91c-43d6-c408-12e953fb34c1-b031eb7f {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_160c3391-a64b-c802-a290-6d38b4f074a3-b031eb7f {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_5f0ff1d7-8d9b-7a42-d863-a4a127a1ae19-b031eb7f {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_5f0ff1d7-8d9b-7a42-d863-a4a127a1ae21-b031eb7f {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-f16dd8f2-8f62-0519-d57b-489029b3ef51-2b31eb81 {
@@ -9100,7 +9114,7 @@ figcaption {
   grid-row-end: span 1;
 }
 
-#w-node-d4dffd32-5a0e-0fd3-73c5-952bff3d612a-3d31eb8c {
+#w-node-c7418ed1-7460-40c9-4075-927aa82f92f2-3d31eb8c {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
@@ -9111,7 +9125,7 @@ figcaption {
   grid-row-end: span 1;
 }
 
-#w-node-_388d7674-2332-9cb3-6b48-c7f212bc5584-3d31eb8c {
+#w-node-_5d17bf6f-1b54-4ad6-e4ee-bf37c4332db3-3d31eb8c {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
